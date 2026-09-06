@@ -31,7 +31,7 @@ do {
 } 
 
     std::cin.clear(); // Clear the input buffer
-    fflush(stdin); // Flush the input buffer 
+    fflush(stdin); // Flush the input buffer
     std::cin.ignore(1000, '\n'); // Ignore the rest of the line
 
     switch (choice) {
